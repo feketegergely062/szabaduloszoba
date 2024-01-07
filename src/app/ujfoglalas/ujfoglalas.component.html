@@ -1,0 +1,26 @@
+<div class="">
+    <form>
+        <fieldset disabled>
+            <legend>Időpontok</legend>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Név megadása</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Időpont választása</label>
+                <select id="disabledSelect" class="form-select">
+                    <option>Időpontok</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                    <label class="form-check-label" for="disabledFieldsetCheck">
+                        Nyomd meg
+                    </label>
+                </div>
+            </div>
+            <button (click)="check()" type="submit" class="btn btn-outline-info">Lefoglal</button>
+        </fieldset>
+    </form>
+</div>
